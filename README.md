@@ -1,146 +1,239 @@
-# Hi 👋, I'm Rohit Kumar R
+# 🚀 Rohit Kumar R | AI/ML & Web Dev Engineer
 
 <div align="center">
 
-### 🚀 Aspiring AI & Machine Learning Engineer
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/rohit1911-code/)
+[![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/rohit1911-code)
+[![Portfolio](https://img.shields.io/badge/Portfolio-%23FF00FF.svg?style=for-the-badge&logo=firefox&logoColor=white)](https://rohit1911-code.github.io)
+[![Email](https://img.shields.io/badge/Email-%23E34234.svg?style=for-the-badge&logo=gmail&logoColor=white)](mailto:rsarrsar919@gmail.com)
 
-🎓 B.Tech CSE (AI & ML) Student @ SRM Institute of Science and Technology
-
-💻 Python Developer | Full-Stack Developer | AI Enthusiast
-
-🌱 Passionate about building AI, IoT, and Web-based solutions
+**🎓 B.Tech CSE (AI & ML Specialization) @ SRM Institute of Science and Technology**  
+**📍 Vellore, Tamil Nadu, India** | **📱 +91 9486477318**
 
 </div>
 
 ---
 
-## 🚀 About Me
+## ✨ About Me
 
-- 🎓 Currently pursuing **B.Tech in Computer Science Engineering (AI & ML)** at **SRM Institute of Science and Technology**
-- 🤖 Passionate about **Artificial Intelligence, Machine Learning, and Full-Stack Development**
-- 💡 Love solving real-world problems through technology
-- 🌱 Currently learning **Advanced Machine Learning, Full-Stack Development, and Cloud Technologies**
-- 👨‍💻 Open to **Internships and Collaboration Opportunities**
-- ⚡ Fun Fact: I enjoy turning ideas into practical software solutions.
+> *Passionate AI/ML Engineer & Full-Stack Developer building intelligent solutions with social impact*
+
+I'm a final-year Computer Science student with expertise in **AI/ML**, **Web Development**, and **IoT**. I specialize in creating end-to-end applications that solve real-world problems—from intelligent assistants to data-driven systems. My recent internships at **Decode Labs** and **SkillCraft Technology** sharpened my skills across AI pipelines and modern web architectures.
 
 ---
 
-## 🌐 Connect with Me
+## 🎯 Current Focus
 
-<p align="left">
-<a href="https://www.linkedin.com/in/rohit1911-code/" target="blank">
-<img align="center" src="https://skillicons.dev/icons?i=linkedin" height="40" />
-</a>
-<a href="mailto:rsarrsar919@gmail.com">
-<img align="center" src="https://skillicons.dev/icons?i=gmail" height="40" />
-</a>
-<a href="https://github.com/rohit1911-code" target="blank">
-<img align="center" src="https://skillicons.dev/icons?i=github" height="40" />
-</a>
-</p>
+Building my **Final Year Major Project** with three social-impact candidates:
 
----
+<table>
+<tr>
+<td>
 
-## 🛠️ Tech Stack
+### 🏥 AI Elder Care Companion
+Smart fall detection & health monitoring for elderly care
 
-### Languages
+</td>
+<td>
 
-<p>
-<img src="https://skillicons.dev/icons?i=python,java,javascript,c,cpp,html,css,sql" />
-</p>
+### 👶 AI Child Development Tracker
+Real-time tracking of developmental milestones with parent insights using ML
 
-### Frameworks & Technologies
+</td>
+<td>
 
-<p>
-<img src="https://skillicons.dev/icons?i=git,github,mysql,flask,vscode" />
-</p>
+### 🚨 Women Safety SOS App
+Instant emergency response system — Web + Mobile
 
-### Areas of Interest
-
-- 🤖 Artificial Intelligence
-- 🧠 Machine Learning
-- 🌐 Full-Stack Development
-- 📡 Internet of Things (IoT)
-- 🗄️ Database Management Systems
-- 🔗 REST APIs
+</td>
+</tr>
+</table>
 
 ---
 
-## 💼 Featured Projects
+## 💻 Tech Stack
 
-### 🗳️ E-Voting System
-- Developed a database-driven voting system.
-- Prevented duplicate voting using validation constraints.
-- **Tech:** MySQL, HTML, Backend Logic
+### Languages & Frameworks
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34C26?style=flat-square&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=java&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
 
-### 👨‍🎓 Student Management System
-- Managed student records, attendance, courses, and marks.
-- Ensured efficient data retrieval and consistency.
-- **Tech:** Python, MySQL, HTML
+### AI/ML & Data
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
 
-### 🛒 Billing System
-- Developed a DBMS-based billing application for textile shops.
-- Managed products, customers, invoices, and reports.
-- **Tech:** Python, MySQL, CSS
+### Databases & Backend
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-00758F?style=flat-square&logo=mysql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-13AA52?style=flat-square&logo=mongodb&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white)
 
-### 🌊 IoT-Based Drainage Monitoring System
-- Designed an IoT solution for real-time drainage monitoring.
-- Enabled flood and blockage detection using threshold alerts.
-- **Tech:** ESP8266, IoT Sensors, Embedded Programming
+### DevOps & Tools
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
+![Render](https://img.shields.io/badge/Render-46E3B7?style=flat-square&logo=render&logoColor=white)
+![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD701?style=flat-square&logo=huggingface&logoColor=black)
 
-### 🤖 AI-Enhanced Smart Crowd Monitoring & Risk Prediction System
-- Built a full-stack web application for crowd monitoring.
-- Integrated Machine Learning models and REST APIs.
-- Implemented dashboards, database support, and alert systems.
-- **Tech:** Python, Machine Learning, REST APIs, Database
-
----
-
-## 📜 Certifications
-
-- ✅ Artificial Intelligence Traineeship
-- ✅ Full-Stack App/Web Development Traineeship
-- ✅ Tata GenAI Powered Data Analytics Job Simulation
-- ✅ Tata GenAI Powered Software Engineering Job Simulation
+**Proficiency:** Python (90%) | HTML (90%) | CSS (85%) | SQL/MySQL (85%) | JavaScript (80%) | Java (80%)
 
 ---
 
-## 📈 GitHub Stats
+## 🏆 Recent Experience
+
+### 💼 Internships (June–July 2026)
+
+| Role | Company | Duration | Focus |
+|------|---------|----------|-------|
+| 🤖 **AI Intern** | Decode Labs | Jun–Jul 2026 | ML Models, Data Pipeline |
+| 💻 **Web Dev Intern** | SkillCraft Technology | Jun–Jul 2026 | Full-Stack Development |
+| 🌐 **Web Dev Intern** | SaiKet Systems | Jun–Jul 2026 | REST APIs, Backend |
+
+---
+
+## 🚀 Featured Projects
+
+### 1. 🧠 AI-Enhanced Smart Crowd Monitoring & Risk Prediction
+**Jan 2026** | Python • ML • REST API • Database
+
+Intelligent system predicting crowd risks in real-time using machine learning models and geospatial analysis.
+
+---
+
+### 2. 🌊 IoT-Based Drainage Monitoring System
+**Feb 2026** | ESP8266 • IoT • Embedded Systems
+
+Smart sensors monitoring drainage levels with real-time alerts and predictive overflow detection.
+
+---
+
+### 3. 💬 Rule-Based AI Chatbot
+**In Progress** | Python • NLP • AI
+
+Intelligent conversational agent with context awareness and knowledge base integration.
+
+[View Repository](https://github.com/rohit1911-code/Rule-Based-AI-Chatbot)
+
+---
+
+### 4. 📊 Data Classification AI
+**Production** | Python • ML • Classification
+
+Advanced ML pipeline for multi-class data classification with model optimization.
+
+[View Repository](https://github.com/rohit1911-code/Data-Classification-AI)
+
+---
+
+### 5. 🎓 Student Management System
+**Dec 2025** | Python • MySQL • HTML/CSS
+
+Full-stack student information system with database management and reporting.
+
+---
+
+### 6. 🗳️ E-Voting System
+**Oct 2025** | MySQL • HTML • Backend
+
+Secure electronic voting platform with integrity checks and audit trails.
+
+---
+
+### 7. 💳 Billing System
+**Aug 2025** | Python • MySQL • CSS
+
+Automated billing and invoice generation with payment tracking.
+
+---
+
+## 🎓 Education & Certifications
+
+### 🎓 Degree
+- **B.Tech in Computer Science Engineering** (AI & ML Specialization)
+- **SRM Institute of Science and Technology** (2024–2028)
+- **CGPA:** 8.5/10
+
+### 📜 Certifications & Programs
+
+| Certification | Issuer | Date |
+|--------------|--------|------|
+| 🏅 **AI Traineeship** (Letter of Recommendation) | Maiyyam | Oct 2025 |
+| 🏅 **Full-Stack MERN Development** | Maiyyam | Completed |
+| 🏅 **Tata GenAI Data Analytics Simulation** | Tata Consultancy Services | 2026 |
+| 🏅 **Tata GenAI Software Engineering Simulation** | Tata Consultancy Services | 2026 |
+| 🏅 **Java Bug Hunt Participation** | Cintel/SRMIST | Mar 2026 |
+| 🏅 **Lithos 2K26 Participation** | Unstop | Feb 2026 |
+| 🏅 **Adobe India Hackathon** | Team Tech Titans | 2026 |
+
+**Mentor:** Sanjith Baburaj (AI Traineeship Program)
+
+---
+
+## 🌍 Languages
+
+| Language | Proficiency |
+|----------|-------------|
+| 🇬🇧 English | Proficient |
+| 🇮🇳 Tamil | Native |
+| 🇮🇳 Telugu | Advanced |
+| 🇫🇷 French | Intermediate |
+
+---
+
+## 📊 GitHub Statistics
 
 <div align="center">
 
-![](https://github-readme-stats.vercel.app/api?username=rohit1911-code&show_icons=true&theme=tokyonight&hide_border=true)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=rohit1911-code&theme=tokyonight&show_icons=true&hide_border=true&count_private=true)
 
-![](https://github-readme-streak-stats.herokuapp.com/?user=rohit1911-code&theme=tokyonight&hide_border=true)
-
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=rohit1911-code&layout=compact&theme=tokyonight&hide_border=true)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=rohit1911-code&theme=tokyonight&hide_border=true&layout=compact)
 
 </div>
 
 ---
 
-## 🏆 GitHub Trophies
+## 🎨 Featured Project: Personal Portfolio
+
+A **self-contained HTML portfolio** featuring:
+- ✨ Space navy, electric cyan & violet aesthetic
+- 🌌 Animated particle background
+- 🎨 Glassmorphism design cards
+- 🌙 Dark/Light mode toggle
+- ⚡ Smooth scroll animations
+- 📱 Fully responsive design
+- 🚀 Zero dependencies, offline-capable
+
+**[View Live Portfolio](https://rohit1911-code.github.io)**
+
+---
+
+## 🤝 Let's Connect!
+
+I'm always excited to collaborate on **AI/ML projects**, **full-stack applications**, and **socially impactful tech**.
 
 <div align="center">
 
-![](https://github-profile-trophy.vercel.app/?username=rohit1911-code&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4)
+📧 **Email:** [rsarrsar919@gmail.com](mailto:rsarrsar919@gmail.com)  
+💼 **LinkedIn:** [linkedin.com/in/rohit1911-code](https://linkedin.com/in/rohit1911-code/)  
+🐙 **GitHub:** [github.com/rohit1911-code](https://github.com/rohit1911-code)  
+🌐 **Portfolio:** [rohit1911-code.github.io](https://rohit1911-code.github.io)  
+📞 **Phone:** +91 9486477318
 
 </div>
 
 ---
 
-## 📊 Contribution Graph
-
 <div align="center">
 
-![](https://github-readme-activity-graph.vercel.app/graph?username=rohit1911-code&theme=tokyo-night)
+### ⭐ If you found this interesting, consider starring some repos!
 
-</div>
-
----
-
-<div align="center">
-
-### ⭐ "Code. Learn. Build. Repeat." ⭐
+**Last Updated:** July 2026 | Made with ❤️ from Vellore, India
 
 </div>
