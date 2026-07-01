@@ -18,7 +18,7 @@
 
 > *Passionate AI/ML Engineer & Full-Stack Developer building intelligent solutions with social impact*
 
-I'm a final-year Computer Science student with expertise in **AI/ML**, **Web Development**, and **IoT**. I specialize in creating end-to-end applications that solve real-world problems—from intelligent assistants to data-driven systems. My recent internships at **Decode Labs** and **SkillCraft Technology** sharpened my skills across AI pipelines and modern web architectures.
+I'm a 3ed-year Computer Science student with expertise in **AI/ML**, **Web Development**, and **IoT**. I specialize in creating end-to-end applications that solve real-world problems—from intelligent assistants to data-driven systems. My recent internships at **Decode Labs** and **SkillCraft Technology** sharpened my skills across AI pipelines and modern web architectures.
 
 ---
 
