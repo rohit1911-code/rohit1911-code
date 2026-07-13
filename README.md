@@ -1,3 +1,302 @@
+
+<svg viewBox="0 0 1180 610" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <!-- GRADIENTS -->
+    <linearGradient id="mainGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7C3AED;stop-opacity:1">
+        <animate attributeName="offset" from="0%" to="100%" dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" style="stop-color:#22D3EE;stop-opacity:1">
+        <animate attributeName="offset" from="50%" to="150%" dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" style="stop-color:#10B981;stop-opacity:1">
+        <animate attributeName="offset" from="100%" to="200%" dur="8s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+ 
+    <radialGradient id="bgGlow1" cx="20%" cy="30%">
+      <stop offset="0%" style="stop-color:#7C3AED;stop-opacity:0.15"/>
+      <stop offset="100%" style="stop-color:#030712;stop-opacity:0"/>
+      <animate attributeName="cy" from="30%" to="50%" dur="6s" repeatCount="indefinite"/>
+    </radialGradient>
+ 
+    <radialGradient id="bgGlow2" cx="80%" cy="70%">
+      <stop offset="0%" style="stop-color:#22D3EE;stop-opacity:0.12"/>
+      <stop offset="100%" style="stop-color:#030712;stop-opacity:0"/>
+      <animate attributeName="cx" from="80%" to="85%" dur="7s" repeatCount="indefinite"/>
+    </radialGradient>
+ 
+    <linearGradient id="asciiGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#7C3AED;stop-opacity:1"/>
+      <stop offset="50%" style="stop-color:#22D3EE;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#10B981;stop-opacity:1">
+        <animate attributeName="offset" from="100%" to="120%" dur="6s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+ 
+    <linearGradient id="textGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#22D3EE;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#7C3AED;stop-opacity:1">
+        <animate attributeName="offset" from="0%" to="100%" dur="4s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+ 
+    <!-- FILTERS -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+ 
+    <filter id="glowPulse">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+      <animate attributeName="stdDeviation" from="2" to="4" dur="2s" repeatCount="indefinite"/>
+    </filter>
+ 
+    <filter id="softBlur">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="1"/>
+    </filter>
+ 
+    <filter id="noise">
+      <feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="3" result="noise" seed="2"/>
+      <feColorMatrix in="noise" type="saturate" values="0.3"/>
+    </filter>
+ 
+    <!-- MASKS -->
+    <mask id="asciiMask">
+      <rect width="1180" height="610" fill="white"/>
+      <rect x="0" y="0" width="450" height="610" fill="black" opacity="0"/>
+      <animate attributeName="opacity" from="0" to="0.05" dur="6s" repeatCount="indefinite"/>
+    </mask>
+ 
+    <mask id="scanlineMask">
+      <rect width="1180" height="610" fill="white"/>
+      <rect x="0" y="0" width="1180" height="2" fill="black">
+        <animate attributeName="y" from="0" to="610" dur="3s" repeatCount="indefinite"/>
+      </rect>
+    </mask>
+ 
+    <mask id="textReveal">
+      <rect width="600" height="300" fill="white"/>
+      <rect x="0" y="0" width="0" height="300" fill="black">
+        <animate attributeName="width" from="0" to="600" dur="4s" begin="1s" fill="freeze"/>
+      </rect>
+    </mask>
+  </defs>
+ 
+  <!-- BACKGROUND -->
+  <rect width="1180" height="610" fill="#030712"/>
+  <rect width="1180" height="610" fill="url(#bgGlow1)"/>
+  <rect width="1180" height="610" fill="url(#bgGlow2)"/>
+ 
+  <!-- SUBTLE NOISE -->
+  <rect width="1180" height="610" fill="url(#noise)" opacity="0.02"/>
+ 
+  <!-- ANIMATED PARTICLES -->
+  <circle cx="100" cy="100" r="1.5" fill="#22D3EE" opacity="0.4">
+    <animate attributeName="cy" from="100" to="600" dur="8s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" from="0" to="0.4" dur="1s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="300" cy="500" r="1" fill="#7C3AED" opacity="0.3">
+    <animate attributeName="cy" from="500" to="50" dur="10s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="1100" cy="200" r="1.2" fill="#10B981" opacity="0.35">
+    <animate attributeName="cx" from="1100" to="900" dur="9s" repeatCount="indefinite"/>
+  </circle>
+ 
+  <!-- LEFT SECTION: ASCII ART -->
+  <g id="asciiSection">
+    <!-- ASCII Container with float animation -->
+    <g transform="translate(60, 100)">
+      <animateTransform attributeName="transform" type="translate" 
+        values="60, 100; 60, 95; 60, 100" dur="4s" repeatCount="indefinite" additive="sum"/>
+      
+      <!-- ASCII Art -->
+      <text x="0" y="0" font-family="'Courier New', monospace" font-size="12" font-weight="bold" fill="url(#asciiGradient)" letter-spacing="2" opacity="0.95">
+        <tspan x="0" dy="20">   ╔═══════════════╗</tspan>
+        <tspan x="0" dy="20">   ║  👨‍💻  ROHIT  ║</tspan>
+        <tspan x="0" dy="20">   ║   AI • ML     ║</tspan>
+        <tspan x="0" dy="20">   ║   FULLSTACK   ║</tspan>
+        <tspan x="0" dy="20">   ╚═══════════════╝</tspan>
+        <tspan x="0" dy="25">   &lt;code&gt;</tspan>
+        <tspan x="0" dy="20">   ✦ Python</tspan>
+        <tspan x="0" dy="20">   ✦ React.js</tspan>
+        <tspan x="0" dy="20">   ✦ ML/AI</tspan>
+        <tspan x="0" dy="25">   &lt;/code&gt;</tspan>
+      </text>
+ 
+      <!-- ASCII Glow -->
+      <rect x="-10" y="-30" width="280" height="290" fill="none" stroke="url(#mainGradient)" stroke-width="1.5" opacity="0.3" filter="url(#glowPulse)"/>
+    </g>
+ 
+    <!-- Scanline Effect -->
+    <rect x="0" y="0" width="450" height="610" fill="none" stroke="rgba(34,211,238,0.05)" stroke-width="1" stroke-dasharray="2,2">
+      <animate attributeName="stroke-dashoffset" from="0" to="100" dur="2s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+ 
+  <!-- CENTER DIVIDER -->
+  <line x1="450" y1="50" x2="450" y2="560" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <circle cx="450" cy="305" r="3" fill="url(#mainGradient)" opacity="0.6" filter="url(#glowPulse)"/>
+ 
+  <!-- RIGHT SECTION: TERMINAL WINDOW -->
+  <g id="terminalSection" transform="translate(500, 60)">
+    <!-- Terminal Background Panel -->
+    <rect x="0" y="0" width="640" height="520" rx="12" fill="#0F172A" opacity="0.8" stroke="rgba(255,255,255,0.08)" stroke-width="1.5"/>
+    
+    <!-- Shimmer Border -->
+    <rect x="0" y="0" width="640" height="520" rx="12" fill="none" stroke="url(#mainGradient)" stroke-width="1" opacity="0" filter="url(#glow)">
+      <animate attributeName="opacity" from="0.2" to="0.6" dur="3s" repeatCount="indefinite"/>
+    </rect>
+ 
+    <!-- Glass Reflection -->
+    <rect x="0" y="0" width="640" height="100" rx="12" fill="white" opacity="0.03"/>
+ 
+    <!-- Terminal Header -->
+    <rect x="0" y="0" width="640" height="40" rx="12" fill="rgba(255,255,255,0.03)" stroke-bottom="1px solid rgba(255,255,255,0.08)"/>
+    <circle cx="20" cy="20" r="4" fill="#EF4444" opacity="0.7"/>
+    <circle cx="40" cy="20" r="4" fill="#FBBF24" opacity="0.7"/>
+    <circle cx="60" cy="20" r="4" fill="#10B981" opacity="0.7"/>
+    <text x="320" y="25" font-family="'Courier New', monospace" font-size="11" fill="#94A3B8" text-anchor="middle">ROHIT@GITHUB</text>
+ 
+    <!-- Content -->
+    <g id="terminalContent" transform="translate(20, 55)">
+      <!-- Greeting -->
+      <text x="0" y="0" font-family="'Courier New', monospace" font-size="13" font-weight="bold" fill="#22D3EE">
+        <tspan>Hi 👋 I'm <tspan fill="url(#textGradient)">Rohit Kumar R</tspan></tspan>
+      </text>
+ 
+      <!-- Typing Role with cursor -->
+      <text x="0" y="30" font-family="'Courier New', monospace" font-size="12" fill="#F8FAFC">
+        <tspan fill="#7C3AED">$ </tspan>
+        <tspan id="role">AI Engineer | ML Dev</tspan>
+        <tspan fill="#22D3EE" font-weight="bold">
+          <animate attributeName="opacity" from="1" to="0" dur="0.8s" repeatCount="indefinite"/>
+          │
+        </tspan>
+      </text>
+ 
+      <!-- Info Items with sequential reveal -->
+      <g id="infoItems" opacity="0">
+        <animate attributeName="opacity" from="0" to="1" dur="1s" begin="2s" fill="freeze"/>
+        
+        <text x="0" y="65" font-family="'Courier New', monospace" font-size="11" fill="#94A3B8">
+          <tspan fill="#7C3AED">📍 </tspan>Vellore, Tamil Nadu
+        </text>
+ 
+        <text x="0" y="85" font-family="'Courier New', monospace" font-size="11" fill="#94A3B8">
+          <tspan fill="#7C3AED">🎓 </tspan>B.Tech CSE (AI & ML) - SRMIST
+        </text>
+ 
+        <text x="0" y="105" font-family="'Courier New', monospace" font-size="11" fill="#94A3B8">
+          <tspan fill="#7C3AED">⚡ </tspan>Building AI solutions with impact
+        </text>
+ 
+        <text x="0" y="125" font-family="'Courier New', monospace" font-size="11" fill="#94A3B8">
+          <tspan fill="#7C3AED">🌐 </tspan>Portfolio: rohit1911-code.github.io
+        </text>
+ 
+        <text x="0" y="145" font-family="'Courier New', monospace" font-size="11" fill="#94A3B8">
+          <tspan fill="#7C3AED">📧 </tspan>rsarrsar919@gmail.com
+        </text>
+      </g>
+ 
+      <!-- Skills Pills -->
+      <g id="skills" opacity="0" transform="translate(0, 170)">
+        <animate attributeName="opacity" from="0" to="1" dur="1s" begin="3s" fill="freeze"/>
+ 
+        <text x="0" y="0" font-family="'Courier New', monospace" font-size="10" fill="#94A3B8" font-weight="bold">SKILLS</text>
+ 
+        <!-- Skill Pill 1 -->
+        <rect x="0" y="15" width="70" height="24" rx="12" fill="rgba(124,58,237,0.15)" stroke="rgba(124,58,237,0.5)" stroke-width="1" filter="url(#glow)">
+          <animate attributeName="stroke-width" from="1" to="1.5" dur="2s" repeatCount="indefinite"/>
+        </rect>
+        <text x="35" y="31" font-family="'Courier New', monospace" font-size="10" fill="#7C3AED" text-anchor="middle" font-weight="bold">Python</text>
+ 
+        <!-- Skill Pill 2 -->
+        <rect x="85" y="15" width="70" height="24" rx="12" fill="rgba(34,211,238,0.15)" stroke="rgba(34,211,238,0.5)" stroke-width="1" filter="url(#glow)">
+          <animate attributeName="stroke-width" from="1" to="1.5" dur="2.2s" repeatCount="indefinite"/>
+        </rect>
+        <text x="120" y="31" font-family="'Courier New', monospace" font-size="10" fill="#22D3EE" text-anchor="middle" font-weight="bold">React.js</text>
+ 
+        <!-- Skill Pill 3 -->
+        <rect x="170" y="15" width="70" height="24" rx="12" fill="rgba(16,185,129,0.15)" stroke="rgba(16,185,129,0.5)" stroke-width="1" filter="url(#glow)">
+          <animate attributeName="stroke-width" from="1" to="1.5" dur="2.4s" repeatCount="indefinite"/>
+        </rect>
+        <text x="205" y="31" font-family="'Courier New', monospace" font-size="10" fill="#10B981" text-anchor="middle" font-weight="bold">FastAPI</text>
+ 
+        <!-- Skill Pill 4 -->
+        <rect x="255" y="15" width="70" height="24" rx="12" fill="rgba(124,58,237,0.15)" stroke="rgba(124,58,237,0.5)" stroke-width="1" filter="url(#glow)">
+          <animate attributeName="stroke-width" from="1" to="1.5" dur="2.1s" repeatCount="indefinite"/>
+        </rect>
+        <text x="290" y="31" font-family="'Courier New', monospace" font-size="10" fill="#7C3AED" text-anchor="middle" font-weight="bold">TensorFlow</text>
+ 
+        <!-- Skill Pill 5 -->
+        <rect x="0" y="50" width="70" height="24" rx="12" fill="rgba(34,211,238,0.15)" stroke="rgba(34,211,238,0.5)" stroke-width="1" filter="url(#glow)">
+          <animate attributeName="stroke-width" from="1" to="1.5" dur="2.3s" repeatCount="indefinite"/>
+        </rect>
+        <text x="35" y="66" font-family="'Courier New', monospace" font-size="10" fill="#22D3EE" text-anchor="middle" font-weight="bold">PostgreSQL</text>
+ 
+        <!-- Skill Pill 6 -->
+        <rect x="85" y="50" width="70" height="24" rx="12" fill="rgba(16,185,129,0.15)" stroke="rgba(16,185,129,0.5)" stroke-width="1" filter="url(#glow)">
+          <animate attributeName="stroke-width" from="1" to="1.5" dur="2.2s" repeatCount="indefinite"/>
+        </rect>
+        <text x="120" y="66" font-family="'Courier New', monospace" font-size="10" fill="#10B981" text-anchor="middle" font-weight="bold">Git/GitHub</text>
+ 
+        <!-- Skill Pill 7 -->
+        <rect x="170" y="50" width="70" height="24" rx="12" fill="rgba(124,58,237,0.15)" stroke="rgba(124,58,237,0.5)" stroke-width="1" filter="url(#glow)">
+          <animate attributeName="stroke-width" from="1" to="1.5" dur="2.4s" repeatCount="indefinite"/>
+        </rect>
+        <text x="205" y="66" font-family="'Courier New', monospace" font-size="10" fill="#7C3AED" text-anchor="middle" font-weight="bold">Docker</text>
+      </g>
+ 
+      <!-- Social Icons -->
+      <g id="socialIcons" opacity="0" transform="translate(0, 300)">
+        <animate attributeName="opacity" from="0" to="1" dur="1s" begin="4s" fill="freeze"/>
+ 
+        <!-- GitHub -->
+        <circle cx="25" cy="25" r="18" fill="rgba(34,211,238,0.15)" stroke="rgba(34,211,238,0.4)" stroke-width="1.5" filter="url(#glow)">
+          <animate attributeName="r" from="18" to="20" dur="2s" repeatCount="indefinite"/>
+        </circle>
+        <text x="25" y="31" font-size="14" text-anchor="middle" fill="#22D3EE">🐙</text>
+ 
+        <!-- LinkedIn -->
+        <circle cx="70" cy="25" r="18" fill="rgba(124,58,237,0.15)" stroke="rgba(124,58,237,0.4)" stroke-width="1.5" filter="url(#glow)">
+          <animate attributeName="r" from="18" to="20" dur="2.2s" repeatCount="indefinite"/>
+        </circle>
+        <text x="70" y="31" font-size="14" text-anchor="middle" fill="#7C3AED">in</text>
+ 
+        <!-- Email -->
+        <circle cx="115" cy="25" r="18" fill="rgba(16,185,129,0.15)" stroke="rgba(16,185,129,0.4)" stroke-width="1.5" filter="url(#glow)">
+          <animate attributeName="r" from="18" to="20" dur="2.4s" repeatCount="indefinite"/>
+        </circle>
+        <text x="115" y="31" font-size="14" text-anchor="middle" fill="#10B981">✉</text>
+ 
+        <!-- Portfolio -->
+        <circle cx="160" cy="25" r="18" fill="rgba(34,211,238,0.15)" stroke="rgba(34,211,238,0.4)" stroke-width="1.5" filter="url(#glow)">
+          <animate attributeName="r" from="18" to="20" dur="2.1s" repeatCount="indefinite"/>
+        </circle>
+        <text x="160" y="31" font-size="14" text-anchor="middle" fill="#22D3EE">🌐</text>
+      </g>
+    </g>
+ 
+    <!-- Bottom Glow -->
+    <rect x="0" y="450" width="640" height="70" rx="12" fill="url(#bgGlow1)" opacity="0.2"/>
+  </g>
+ 
+  <!-- GLOBAL SCANLINE EFFECT -->
+  <rect width="1180" height="610" fill="none" mask="url(#scanlineMask)" stroke="rgba(34,211,238,0.03)" stroke-width="1"/>
+ 
+  <!-- CREDITS -->
+  <text x="1170" y="600" font-family="'Courier New', monospace" font-size="8" fill="#475569" text-anchor="end" opacity="0.6">Made with ❤️ | 2026</text>
+</svg>
+ 
 # 🚀 Rohit Kumar R | AI/ML & Web Dev Engineer
 
 <div align="center">
