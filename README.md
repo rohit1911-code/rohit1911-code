@@ -13,7 +13,7 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230A66C2.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/rohit1911-code/)
 [![GitHub](https://img.shields.io/badge/GitHub-%23181717.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/rohit1911-code)
-[![Portfolio](https://img.shields.io/badge/Portfolio_Website-%23FF00FF.svg?style=for-the-badge&logo=firefox&logoColor=white)](https://portfolio-rohit1911.netlify.app/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-%23FF00FF.svg?style=for-the-badge&logo=firefox&logoColor=white)](https://portfolio-rohit1911.netlify.app/)
 [![Email](https://img.shields.io/badge/Email-%23EA4335.svg?style=for-the-badge&logo=gmail&logoColor=white)](mailto:rsarrsar919@gmail.com)
 [![Phone](https://img.shields.io/badge/Phone-%2320B9B9.svg?style=for-the-badge&logo=whatsapp&logoColor=white)](tel:+919486477318)
 
@@ -41,7 +41,7 @@
 
 > ***"Code is poetry written for machines, but designed for humans. I build systems that are both intelligent and impactful."***
 
-I'm a **B.Tech CSE final-year student** with expertise in **Machine Learning**, **Web Development**, and **IoT**. My passion lies in creating **end-to-end intelligent solutions** that solve real-world problems. 
+I'm a **B.Tech CSE 3ed-year student** with expertise in **Machine Learning**, **Web Development**, and **IoT**. My passion lies in creating **end-to-end intelligent solutions** that solve real-world problems. 
 
 Recently completed **3 simultaneous internships** (June–July 2026) at industry leaders, where I:
 - 🤖 Architected ML pipelines and data workflows
