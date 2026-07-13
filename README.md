@@ -1,19 +1,19 @@
 # 
 ```
-╔══════════════════════════════════════════════════════════════════════╗
-║                                                                      ║
-║        🚀 ROHIT KUMAR R | AI/ML Engineer & Full-Stack Dev 🚀       ║
-║                                                                      ║
-║     ✨ Building Intelligent Solutions with Social Impact ✨          ║
-║                                                                      ║
-╚══════════════════════════════════════════════════════════════════════╝
+          ╔══════════════════════════════════════════════════════════════════════╗
+          ║                                                                      ║
+          ║        🚀 ROHIT KUMAR R | AI/ML Engineer & Full-Stack Dev 🚀        ║
+          ║                                                                      ║
+          ║     ✨ Building Intelligent Solutions with Social Impact ✨         ║
+          ║                                                                      ║
+          ╚══════════════════════════════════════════════════════════════════════╝
 ```
 
 <div align="center">
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230A66C2.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/rohit1911-code/)
 [![GitHub](https://img.shields.io/badge/GitHub-%23181717.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/rohit1911-code)
-[![Portfolio](https://img.shields.io/badge/Portfolio_Website-%23FF00FF.svg?style=for-the-badge&logo=firefox&logoColor=white)](https://rohit1911-code.github.io)
+[![Portfolio](https://img.shields.io/badge/Portfolio_Website-%23FF00FF.svg?style=for-the-badge&logo=firefox&logoColor=white)](https://portfolio-rohit1911.netlify.app/)
 [![Email](https://img.shields.io/badge/Email-%23EA4335.svg?style=for-the-badge&logo=gmail&logoColor=white)](mailto:rsarrsar919@gmail.com)
 [![Phone](https://img.shields.io/badge/Phone-%2320B9B9.svg?style=for-the-badge&logo=whatsapp&logoColor=white)](tel:+919486477318)
 
